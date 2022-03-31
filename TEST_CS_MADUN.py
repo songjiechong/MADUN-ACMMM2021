@@ -15,7 +15,7 @@ from argparse import ArgumentParser
 import pandas as pd
 
 parser = ArgumentParser(description='MADUN')
-parser.add_argument('--epoch_num', type=int, default=410, help='epoch number of model')
+parser.add_argument('--epoch_num', type=int, default=401, help='epoch number of model')
 parser.add_argument('--layer_num', type=int, default=25, help='phase number of MADUN')
 parser.add_argument('--learning_rate', type=float, default=1e-4, help='learning rate')
 parser.add_argument('--cs_ratio', type=int, default=30, help='from {1, 4, 10, 25, 40, 50}')
