@@ -223,6 +223,8 @@ log_file_name = "./%s/Log_CS_%s_channels_%d_layer_%d_ratio_%d.txt" % (args.log_d
 
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
+if not os.path.exists(args.log_dir):
+    os.makedirs(args.log_dir)
 
 if start_epoch > 0:
     pre_model_dir = model_dir
