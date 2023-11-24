@@ -3,10 +3,17 @@ This repository is for MADUN introduced in the following paper：
 
 [Jiechong Song](https://scholar.google.com/citations?hl=en&user=EBOtupAAAAAJ), Bin Chen and [Jian Zhang](http://jianzhang.tech/), "Memory-Augmented Deep Unfolding Network for Compressive Sensing ", in the 29th ACM International Conference on Multimedia (ACM MM), 2021. [PDF](https://arxiv.org/abs/2110.09766)
 
-## 🚩 News(2023-3-2)
-Our extended version has been accepted by IJCV (International Journal of Computer Vision)!
+## 🚩 News(2023-11-24)
+### ✅ 2023-11-24
+  
+  We release [MAPUN code](https://github.com/songjiechong/MADUN-ACMMM2021/tree/main/MAPUN). And the test command is `python TEST_CS_MAPUN.py --cs_ratio 10/25/30/40/50 --test_name Set11/CBSD68/Urban100`
 
-[Jiechong Song](https://scholar.google.com/citations?hl=en&user=EBOtupAAAAAJ), Bin Chen and [Jian Zhang](http://jianzhang.tech/), "Deep Memory-Augmented Proximal Unrolling Network for Compressive Sensing", in the International Journal of Computer Vision (IJCV), 2023. [PDF](https://link.springer.com/article/10.1007/s11263-023-01765-2)
+  
+### ✅ 2023-3-2
+  
+  Our extended version has been accepted by IJCV (International Journal of Computer Vision)!
+  
+  [Jiechong Song](https://scholar.google.com/citations?hl=en&user=EBOtupAAAAAJ), Bin Chen and [Jian Zhang](http://jianzhang.tech/), "Deep Memory-Augmented Proximal Unrolling Network for Compressive Sensing", in the International Journal of Computer Vision (IJCV), 2023. [PDF](https://link.springer.com/article/10.1007/s11263-023-01765-2)
 
 ## 🔧 Requirements
 - Python == 3.8
